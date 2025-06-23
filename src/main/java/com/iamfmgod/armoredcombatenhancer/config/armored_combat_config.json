@@ -1,0 +1,37 @@
+{
+  "weapons": [
+    {
+      "type": "sword",
+      "critChance": "0.2",
+      "damageMultiplier": "1.5"
+    },
+    {
+      "type": "axe",
+      "critChance": "0.15",
+      "damageMultiplier": "1.7"
+    }
+  ],
+  "armors": [
+    {
+      "type": "helmet",
+      "armorWeight": "1.0",
+      "durability": "200"
+    },
+    {
+      "type": "chestplate",
+      "armorWeight": "3.5",
+      "durability": "500"
+    }
+  ],
+  "compatibility": {
+    "tconstruct": {
+      "weaponBonus": "0.1",
+      "armorBonus": "0.2"
+    },
+    "botania": {
+      "weaponMagicMultiplier": "1.25",
+      "armorMagicResistance": "0.15"
+    }
+    // Add additional compatibility properties as needed.
+  }
+}
