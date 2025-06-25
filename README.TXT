@@ -1,7 +1,3 @@
-Below is an updated README for the Armored Combat Enhancer mod. This revised documentation highlights the enhanced combat mechanics and updated project structure. You can place this content in your README.md file.
-
----
-
 # Armored Combat Enhancer
 
 Armored Combat Enhancer is a Minecraft 1.12.3 mod designed to enrich combat mechanics by introducing dynamic armor weight, critical hit effects, stagger mechanics, and custom debuffs. It encourages a more strategic approach to armored combat—every piece of gear and weapon type carries clear in-game consequences.
@@ -65,7 +61,7 @@ Armored-Combat-Enhancer/
 │       │                   ├── network/
 │       │                   │   └── NetworkModule.java
 │       │                   ├── ui/
-│       │                   │   └── UIModule.java              ← Updated with HUD timer
+│       │                   │   └── UIModule.java            
 │       │                   └── utils/
 │       │                       └── UtilsModule.java
 │       └── resources/
@@ -108,4 +104,3 @@ Enjoy a more balanced and immersive combat experience with Armored Combat Enhanc
 
 ---
 
-Feel free to tweak the documentation to further match your mod's evolving features or project structure.
