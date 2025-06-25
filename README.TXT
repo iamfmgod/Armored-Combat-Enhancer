@@ -4,7 +4,7 @@ Below is an updated README for the Armored Combat Enhancer mod. This revised doc
 
 # Armored Combat Enhancer
 
-Armored Combat Enhancer is a Minecraft 1.12.2 mod designed to enrich combat mechanics by introducing dynamic armor weight, critical hit effects, stagger mechanics, and custom debuffs. It encourages a more strategic approach to armored combat—every piece of gear and weapon type carries clear in-game consequences.
+Armored Combat Enhancer is a Minecraft 1.12.3 mod designed to enrich combat mechanics by introducing dynamic armor weight, critical hit effects, stagger mechanics, and custom debuffs. It encourages a more strategic approach to armored combat—every piece of gear and weapon type carries clear in-game consequences.
 
 ## Features
 
