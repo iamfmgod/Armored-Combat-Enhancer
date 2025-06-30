@@ -1,0 +1,217 @@
+{
+  "weapons": [
+    {
+      "type": "minecraft:wooden_sword",
+      "critChance": 0.05,
+      "damageMultiplier": 1.25,
+      "effects": [
+        { "name": "weakness",     "level": 1, "duration": 40,  "chance": 0.10 }
+      ]
+    },
+    {
+      "type": "minecraft:stone_sword",
+      "critChance": 0.07,
+      "damageMultiplier": 1.30,
+      "effects": [
+        { "name": "slowness",     "level": 1, "duration": 30,  "chance": 0.15 }
+      ]
+    },
+    {
+      "type": "minecraft:iron_sword",
+      "critChance": 0.10,
+      "damageMultiplier": 1.50,
+      "effects": [
+        { "name": "bleed",        "level": 1, "duration": 60,  "chance": 0.20 },
+        { "name": "knockback",    "level": 1, "duration":  0,  "chance": 0.25 }
+      ]
+    },
+    {
+      "type": "minecraft:diamond_sword",
+      "critChance": 0.15,
+      "damageMultiplier": 1.75,
+      "effects": [
+        { "name": "bleed",        "level": 2, "duration": 80,  "chance": 0.30 },
+        { "name": "stun",         "level": 1, "duration": 20,  "chance": 0.10 }
+      ]
+    },
+    {
+      "type": "tconstruct:crossbow",
+      "critChance": 0.12,
+      "damageMultiplier": 1.60,
+      "effects": [
+        { "name": "pierce",       "level": 1, "duration":  0,  "chance": 0.25 }
+      ]
+    },
+    {
+      "type": "botania:terra_sword",
+      "critChance": 0.20,
+      "damageMultiplier": 2.00,
+      "effects": [
+        { "name": "mana_burn",    "level": 2, "duration": 80,  "chance": 0.25 }
+      ]
+    },
+    {
+      "type": "thaumcraft:wand_relay",
+      "critChance": 0.05,
+      "damageMultiplier": 1.30,
+      "effects": [
+        { "name": "flux_spread",  "level": 1, "duration": 50,  "chance": 0.20 }
+      ]
+    },
+    {
+      "type": "bloodmagic:dagger_of_sacrifice",
+      "critChance": 0.18,
+      "damageMultiplier": 2.20,
+      "effects": [
+        { "name": "life_steal",   "level": 1, "duration": 40,  "chance": 0.40 }
+      ]
+    },
+    {
+      "type": "draconicevolution:draconic_sword",
+      "critChance": 0.25,
+      "damageMultiplier": 2.50,
+      "effects": [
+        { "name": "explosion",    "level": 1, "duration":  0,  "chance": 0.15 }
+      ]
+    },
+    {
+      "type": "extrabitmanipulation:accelerator_blade",
+      "critChance": 0.22,
+      "damageMultiplier": 2.00,
+      "effects": [
+        { "name": "haste",        "level": 2, "duration": 100, "chance": 0.30 }
+      ]
+    }
+  ],
+
+  "armors": [
+    {
+      "type": "minecraft:leather_chestplate",
+      "armorWeight": 7.0,
+      "dynamicEffects": [
+        { "name": "water_breathing",   "level": 1, "duration": 200, "chance": 0.50 }
+      ]
+    },
+    {
+      "type": "minecraft:iron_chestplate",
+      "armorWeight": 15.0,
+      "dynamicEffects": [
+        { "name": "resistance",        "level": 1, "duration": 100, "chance": 1.00 }
+      ]
+    },
+    {
+      "type": "minecraft:diamond_leggings",
+      "armorWeight": 18.0,
+      "dynamicEffects": [
+        { "name": "speed",             "level": 1, "duration": 80,  "chance": 0.75 }
+      ]
+    },
+    {
+      "type": "tconstruct:slimesteel_helmet",
+      "armorWeight": 8.0,
+      "dynamicEffects": [
+        { "name": "mana_regen",        "level": 1, "duration": 120, "chance": 0.60 }
+      ]
+    },
+    {
+      "type": "botania:terra_plate",
+      "armorWeight": 10.0,
+      "dynamicEffects": [
+        { "name": "health_boost",      "level": 2, "duration": 200, "chance": 0.50 }
+      ]
+    },
+    {
+      "type": "thaumcraft:enchanted_robe",
+      "armorWeight": 5.0,
+      "dynamicEffects": [
+        { "name": "warp_resistance",   "level": 1, "duration": 150, "chance": 0.80 }
+      ]
+    },
+    {
+      "type": "bloodmagic:livingplate",
+      "armorWeight": 12.0,
+      "dynamicEffects": [
+        { "name": "life_replenish",    "level": 1, "duration": 100, "chance": 0.70 }
+      ]
+    },
+    {
+      "type": "draconicevolution:draconic_helmet",
+      "armorWeight": 20.0,
+      "dynamicEffects": [
+        { "name": "flight",            "level": 1, "duration":   0, "chance": 1.00 }
+      ]
+    },
+    {
+      "type": "mekanism:armor_composite_leggings",
+      "armorWeight": 14.0,
+      "dynamicEffects": [
+        { "name": "radiation_protection", "level": 1, "duration": 160, "chance": 0.65 }
+      ]
+    },
+    {
+      "type": "mythicmetals:aquarium_boots",
+      "armorWeight": 9.0,
+      "dynamicEffects": [
+        { "name": "dolphin_grace",     "level": 1, "duration": 180, "chance": 0.90 }
+      ]
+    }
+  ],
+
+  "compatibility": {
+    "tconstruct": {
+      "autoScale": true,
+      "handleModifiers": true
+    },
+    "botania": {
+      "enableManaEffects": true,
+      "autoDetectBaubles": true
+    },
+    "thaumcraft": {
+      "enableVisStun": true,
+      "warpResistance": 0.20
+    },
+    "bloodmagic": {
+      "enableSacrificeBuffs": true,
+      "enableLifeStealSync": true
+    },
+    "draconicevolution": {
+      "enableDraconicFlight": true,
+      "syncItemAbilities": true
+    },
+    "extrabitmanipulation": {
+      "acceleratorBuffs": true
+    },
+    "mekanism": {
+      "enableRadiation": true
+    },
+    "mythicmetals": {
+      "enableAquaticBuffs": true
+    }
+  },
+
+  "armorWeights": {
+    "minecraft:leather":               1.0,
+    "minecraft:iron":                  2.0,
+    "minecraft:diamond":               4.5,
+    "tconstruct:slimesteel":           1.8,
+    "tconstruct:heating":              2.2,
+    "botania:manasteel":               1.5,
+    "botania:terrasteel":              3.0,
+    "thaumcraft:cloth":                0.5,
+    "thaumcraft:iron":                 1.8,
+    "bloodmagic:living":               2.5,
+    "draconicevolution:draconic":      5.0,
+    "extrabitmanipulation:accelerator":2.8,
+    "mekanism:composite":              3.2,
+    "mythicmetals:aquarium":           3.0,
+    "mythicmetals:orichalcum":         4.2
+  },
+
+  "movement": {
+    "shieldBashDamage":    4.0,
+    "shieldBashKnockback": 5.0,
+    "shieldBashRange":     5.0,
+    "shieldDashSpeed":     1.4,
+    "shieldBashCooldown":  35
+  }
+}

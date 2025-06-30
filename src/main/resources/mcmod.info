@@ -1,0 +1,30 @@
+[
+  {
+    "modid": "armoredcombatenhancer",
+    "name": "Armored Combat Enhancer",
+    "description": "Enhances combat with dynamic armor weight, skill progression, and custom effects.",
+    "version": "1.0.3",
+    "mcversion": "1.12.2",
+    "url": "https://github.com/IAmFmGod/Armored-Combat-Enhancer",
+    "authorList": [
+      "IAmFmGod"
+    ],
+    "credits": "Developed by IAmFmGod; thanks to the Forge and modding community.",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": [
+        {
+            "modId": "forge",
+            "mandatory": true,
+            "versionRange": "[14.23.5.2854,)",
+            "side": "both"
+        },
+        {
+            "modId": "armoredcombat",
+            "mandatory": true,
+            "versionRange": "[1.0.3)",
+            "side": "both"
+        }
+    ]
+  }
+]

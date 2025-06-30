@@ -1,0 +1,107 @@
+{
+  "weapons": [
+    {
+      "type": "sword",
+      "critChance": "0.2",
+      "damageMultiplier": "1.5",
+      "effects": [
+        {
+          "name": "slowness",
+          "level": 1,
+          "duration": 60,
+          "chance": 0.25
+        },
+        {
+          "name": "weakness",
+          "level": 1,
+          "duration": 40,
+          "chance": 0.15
+        }
+      ]
+    },
+    {
+      "type": "axe",
+      "critChance": "0.15",
+      "damageMultiplier": "1.7",
+      "effects": [
+        {
+          "name": "nausea",
+          "level": 0,
+          "duration": 40,
+          "chance": 0.2
+        }
+      ]
+    }
+  ],
+  "armors": [
+    {
+      "type": "helmet",
+      "armorWeight": "1.0",
+      "dynamicEffects": [
+        {
+          "name": "night_vision",
+          "level": 0,
+          "duration": 200,
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "type": "chestplate",
+      "armorWeight": "3.5",
+      "dynamicEffects": [
+        {
+          "name": "resistance",
+          "level": 1,
+          "duration": 100,
+          "chance": 0.3
+        }
+      ]
+    },
+    {
+      "type": "leggings",
+      "armorWeight": "2.5",
+      "dynamicEffects": [
+        {
+          "name": "speed",
+          "level": 0,
+          "duration": 100,
+          "chance": 0.4
+        }
+      ]
+    },
+    {
+      "type": "boots",
+      "armorWeight": "2.0",
+      "dynamicEffects": [
+        {
+          "name": "jump_boost",
+          "level": 1,
+          "duration": 60,
+          "chance": 0.4
+        }
+      ]
+    }
+  ],
+  "compatibility": {
+    "tconstruct": {
+      "weaponBonus": "0.1",
+      "armorBonus": "0.2"
+    },
+    "botania": {
+      "weaponMagicMultiplier": "1.25",
+      "armorMagicResistance": "0.15"
+    },
+    "twilightforest": {
+      "weaponCritBonus": "0.05"
+    }
+  },
+
+  "movement": {
+    "shieldBashDamage":     4.0,
+    "shieldBashKnockback":  5.0,
+    "shieldBashRange":      4.0,
+    "shieldDashSpeed":      1.0,
+    "shieldBashCooldown":   40
+  }
+}
